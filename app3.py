@@ -11,7 +11,7 @@ from sklearn.metrics import mean_squared_error
 # Página
 # -------------------------
 st.set_page_config(
-    page_title="Forecast Premium — GBM / Merton / Heston",
+    page_title="Forecast — GBM / Merton / Heston",
     layout="wide",
     initial_sidebar_state="collapsed"
 )
@@ -406,4 +406,5 @@ with right_col:
 
 
 st.markdown("---")
+
 
